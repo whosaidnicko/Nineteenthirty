@@ -12,7 +12,8 @@ struct RutingView: View {
     @StateObject private var navigationMnG: NavigationMng = NavigationMng()
     var body: some View {
         ZStack {
-            Color.init(hex: "#BCBCBC")
+            Image("bg")
+                .resizable()
                 .ignoresSafeArea()
             
             VStack {

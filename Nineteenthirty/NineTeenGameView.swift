@@ -28,7 +28,7 @@ struct NineTeenGameView: View {
                 .padding(.horizontal)
                 
                 ZStack {
-                    WKWebViewRepresentable(url: URL(string: "https://plays.org/game/1930/")!, onLoadCompletion: {
+                    WKWebViewRepresentable(url: URL(string: "https://plays.org/game/aliens-vs-math/")!, onLoadCompletion: {
                         showImage = false
                         //            loadingFinished = true
                     })

@@ -13,7 +13,7 @@ struct KnopkaView: View {
     @State var size: CGFloat?
     var body: some View {
         Rectangle()
-            .fill(Color.init(hex: "#565656"))
+            .fill(Color.white)
             .overlay {
                 Rectangle()
                     .stroke(Color.init(hex: "#000000")

@@ -36,7 +36,7 @@ struct MenuView: View {
             }
             Spacer()
             
-            Image("1930")
+//            Image("1930")
             
             Spacer()
             
