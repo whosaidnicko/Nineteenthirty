@@ -8,7 +8,6 @@
 enum ViewChang {
     case loading
     case menu
-    case rule
     case game
     case settings
 }

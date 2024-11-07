@@ -23,8 +23,6 @@ struct RutingView: View {
                         LoaderVIew()
                     case .menu:
                         MenuView()
-                    case .rule:
-                        RuleView()
                     case .game:
                         NineTeenGameView()
                     case .settings:

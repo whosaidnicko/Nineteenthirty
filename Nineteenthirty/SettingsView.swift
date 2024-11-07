@@ -26,7 +26,7 @@ struct SettingsView: View {
                 
                 Text("Settings")
                     .font(.custom("PixelifySans-SemiBold", size: 52))
-                    .foregroundStyle(.black)
+                    .foregroundStyle(.white)
                 
                 Spacer()
                 

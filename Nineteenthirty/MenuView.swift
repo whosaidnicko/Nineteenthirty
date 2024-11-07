@@ -23,14 +23,7 @@ struct MenuView: View {
                
                 
                 Spacer()
-                
-                Button {
-                    withAnimation {
-                        navigationMng.viewCh = .rule
-                    }
-                } label: {
-                    Image("ruleBtn")
-                }
+              
 
               
             }
